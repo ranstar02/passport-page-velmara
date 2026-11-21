@@ -562,7 +562,7 @@ def draw_qr(cv, x0, y0, size, rng):
 
 # ---------------------------------------------------------------- MRZ (ICAO 9303, check digits 7-3-1 verified)
 MRZ_LINE1 = "P<VLMVUKOVIC<<ELENA<MARIS<<<<<<<<<<<<<<<<<<<"
-MRZ_LINE2 = "VM48291739VLM9806124F3403130<<<<<<<<<<<<<<05"
+MRZ_LINE2 = "VM48291739VLM9806124F3403130<<<<<<<<<<<<<<<2"
 
 
 def signature_scribble(cv, x0, x1, y, color):
